@@ -5,6 +5,18 @@ Simple Java console application for:
 - ✅ validating SSIDs entered in the terminal
 - 🔑 generating passwords from a PPSN-style input
 
+## ℹ️ About
+
+This project is a small Java command-line tool that checks whether an SSID matches the rules implemented in the code and can then generate passwords from a PPSN-style input. It is built as a simple console program with no external dependencies.
+
+## 🛠️ Technologies Used
+
+- Java
+- JDK standard library
+- `Scanner` for console input
+- `StringBuilder` for string construction
+- command-line / terminal execution
+
 ## 🗂️ Repository Contents
 
 - `SsidChecker.java`: SSID validation and password generation logic
