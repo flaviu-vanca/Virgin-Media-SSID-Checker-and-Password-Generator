@@ -1,16 +1,16 @@
-# Virgin Media SSID Checker and Password Generator
+# 📶 Virgin Media SSID Checker and Password Generator 🔐
 
 Simple Java console application for:
 
-- validating SSIDs entered in the terminal
-- generating passwords from a PPSN-style input
+- ✅ validating SSIDs entered in the terminal
+- 🔑 generating passwords from a PPSN-style input
 
-## Repository Contents
+## 🗂️ Repository Contents
 
 - `SsidChecker.java`: SSID validation and password generation logic
 - `SsidCheckerApp.java`: console UI and program entry point
 
-## SSID Validation
+## 📡 SSID Validation
 
 The validator is built around input shaped like:
 
@@ -32,13 +32,13 @@ Notes based on the current code:
 
 Examples:
 
-- valid: `VM-12345-EEO`
-- valid: `VM-11234-EEE`
-- invalid: `XX-12345-EEE`
-- invalid: `VM-54321-EEE`
-- invalid: `VM-12345-XYZ`
+- ✅ valid: `VM-12345-EEO`
+- ✅ valid: `VM-11234-EEE`
+- ❌ invalid: `XX-12345-EEE`
+- ❌ invalid: `VM-54321-EEE`
+- ❌ invalid: `VM-12345-XYZ`
 
-## Password Generation
+## 🔐 Password Generation
 
 After the SSID loop finishes, the program asks how many passwords to generate and then asks for a PPSN.
 
@@ -70,7 +70,7 @@ Notes:
 - the generator does not validate PPSN format before processing
 - invalid PPSN input can terminate the program with an exception
 
-## Console Flow
+## 🖥️ Console Flow
 
 1. Enter an SSID.
 2. The program prints `Valid` or `Not Valid`.
@@ -89,7 +89,7 @@ Number of passwords behavior:
 
 Important: password generation is still available even if the last SSID entered was not valid.
 
-## Build and Run
+## ⚙️ Build and Run
 
 From the repository root:
 
@@ -107,12 +107,12 @@ javac SsidChecker.java SsidCheckerApp.java
 java SsidCheckerApp
 ```
 
-## Requirements
+## 📋 Requirements
 
 - Java JDK with `javac` and `java` available on your path
 - terminal or command prompt
 
-## Current Limitations
+## ⚠️ Current Limitations
 
 - PPSN input is not validated before substring and integer parsing
 - the app can generate passwords even after an invalid SSID
