@@ -101,7 +101,7 @@ java SsidCheckerApp
 If you are cloning the repository first:
 
 ```bash
-git clone https://github.com/thaparazite/Virgin-Media-SSID-Checker-and-Password-Generator.git
+git clone https://github.com/flaviu-vanca/Virgin-Media-SSID-Checker-and-Password-Generator.git
 cd Virgin-Media-SSID-Checker-and-Password-Generator
 javac SsidChecker.java SsidCheckerApp.java
 java SsidCheckerApp
